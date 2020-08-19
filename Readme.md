@@ -60,3 +60,17 @@ for example:
 >``brew install kubectx``
 >
 > ``kubens``
+>
+>
+
+#####Ingress
+- evaluates all the rules
+- manage redirections
+- entrypoint to cluster
+- many third party implementations ( install ingress controller in cluster- K8s Nginix Ingress Controller )
+
+
+#####Demonstration
+##### Install Ingress Controller in Minikube ( starts K8s Nginix Implementation of Ingress)
+ 
+>``minikube addons enable ingress`` 
